@@ -1,0 +1,167 @@
+ \input{/home/diego/Documents/Licenciatura/LatexBasic/Preamble_general}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{fancyhdr}%formato de pagina
+\pagestyle{fancy}%colocar la pagina con el formato deseado
+\fancyhead{}
+%\fancyhead[L]{\footnotesize{Sistemas Dinámicos}}  
+%\fancyhead[C]{Corto 1}
+\fancyhead[R]{\footnotesize{\thepage}}
+%\fancyhead[LO,RE]{Cálculo 3}
+%\fancyhead[RO,LE]{\footnotesize{\thepage}}
+\fancyfoot{}
+%\fancyfoot[L]{Diego Sarceño}
+%\fancyfoot[LO,RE]{Diego Sarceño}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% NUEVA BARRA INFERIOR, NICEEEE :3
+\usepackage{fourier-orns}
+
+\renewcommand\footrule{%
+\hrulefill
+\raisebox{-2.1pt}
+{\quad\decosix\quad}%
+\hrulefill}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\inner}[2]{\langle #1 , #2 \rangle}
+\newcommand{\metric}[2]{\rho(#1,#2)}	
+\newcommand{\seque}[2]{\{ #1_{#2} \}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\definecolor{DS_Black}{HTML}{000000}
+
+\begin{document}
+\begin{titlepage}
+%\input{Header_original}
+
+
+
+
+\begin{flushleft}
+Jefe Departamento de Física / Matemática Aplicada \\
+Escuela de Ciencias Físicas y Matemáticas \\
+\end{flushleft}
+
+\vspace{3.5cm}
+
+Yo, Diego Rodolfo Sarceño Ramírez guatemalteco, mayor de edad, cursante de la carrera de Licenciatura en Física Aplicada, con carné No $201900109$, documento de identificación número $3004 88122 0101$, con residencia en 4av. 41-25 Zona 12, Monte María 3, Condominio Puerta Grande C. 42, ante usted con todo respeto: \\\\
+
+Solicito:
+
+Se me apruebe como punto de Trabajo de Graduación, relativo al examen general público, el tema \\\\
+
+\begin{center}
+\textbf{Evaluación de la viabilidad de la Retrodispersión de Thompson en la mejora de técnicas de tomografía por rayos X}
+\end{center}
+
+\vspace{2.5cm}
+
+1. Para el desarrollo de mi Trabajo de Graduación, propongo al profesional \underline{\hspace{10cm}} número de colegiado \underline{\hspace{4cm}}.
+
+2. Línea de investigación: \underline{\hspace{10cm}}.
+
+\vspace{0.5cm}
+
+\begin{flushright}
+\underline{\hspace{8cm}} \\
+(Firma del estudiante)
+\end{flushright}
+
+
+
+
+
+
+\pagebreak
+
+
+
+
+\textcolor{DS_Black}{
+\begin{minipage}{0.85\textwidth}
+    \begin{center}
+        \textbf{\Large Evaluación de la viabilidad de la Retrodispersión de Thompson en la mejora de técnicas de tomografía por rayos X}\\
+        \vspace{5pt}
+        Propuesta Proyecto de Prácticas \\
+        \vspace{20pt}
+        \textit{Diego Sarceño} \\
+        \vspace{5pt}
+        \footnotesize{\textit{201900109}} \\
+        \vspace{5pt}
+        \today
+    \end{center}
+\end{minipage}
+\vspace{10pt}
+\hrule
+}
+
+%\noindent \textbf{Instrucciones: } Resuelva cada uno de los siguientes problemas a \LaTeX  o a mano con letra clara y legible, dejando constancia de sus procedimientos. No es necesaria la carátula, únicamente su identificaciónn y las respuestas encerradas en un cuadro.
+
+%\input{content.tex}
+
+
+\section{Introducción}
+
+En el mundo del deporte, la emoción y la incertidumbre son dos elementos que constantemente desafían tanto a los seguidores apasionados como a los actores de la industria. Las competiciones deportivas oficiales, ya sean ligas de fútbol, torneos de tenis, carreras de automovilismo o eventos olímpicos, atraen a audiencias masivas y generan enormes cantidades de interés, inversión y apuestas. Sin embargo, la impredecibilidad inherente a los resultados deportivos ha mantenido a todos los involucrados en un estado constante de anticipación y expectación. \\
+
+En este contexto, la investigación estadística y la aplicación de simulaciones han emergido como herramientas cruciales que tienen el potencial de arrojar luz sobre el enigma de la predicción de resultados deportivos. Este protocolo de proyecto se establece con el propósito de abordar la emocionante intersección entre la investigación estadística y el mundo del deporte, centrándose en la predicción de resultados deportivos en competiciones oficiales y la utilización de simulaciones como una herramienta fundamental. \\
+
+
+La creación de modelos predictivos sólidos, basados en el análisis estadístico, permitirá a los interesados en el ámbito deportivo tomar decisiones informadas y estratégicas. Esto, a su vez, puede tener un impacto significativo en la toma de decisiones de los equipos, la planificación de estrategias, la gestión de riesgos y la experiencia global de los seguidores de los deportes.
+
+
+
+
+\section{Objetivos}
+\subsection{General}
+\begin{itemize}
+	\item Estudiar la estadística y los procesos detrás de los programas de predicción probabilística de resultados deportivos.
+\end{itemize}
+
+\subsection{Específicos}
+\begin{enumerate}
+	\item Recolectar artículos con la teoría relacionada.
+	\item Recolección de datos necesarios para simulación.
+	\item Realización de simulaciones con los datos obtenidos en base a la teoría revisada.
+\end{enumerate}
+
+
+\section{Justificación}
+
+Alineado con los objetivos de la Escuela de Ciencias Físicas y Matemáticas y las aplicaciones que tiene el área de estadística en una gran variedad de ámbitos abren la puerta al estudio de ciertas discilplinas, a priori, poco relacionadas con la Física o la Matemática. En este caso, como ya se mencionó, se realizará un estudio sobre las técnicas y teoría realizada en la predicción de resultados deportivos. Con esto no se busca fomentar las apuestas, solo mostrar aplicaciones interesantes de la estadística; además, los métodos utilizados podrían ser aplicados en otros ámbitos.
+
+%\section{Marco Teórico}
+
+
+
+\section{Metodología}
+
+Como se muestra en el cronograma, se realizará la busqueda de artículos y revisión de teoría relacionada con la estadística detrás de estos modelos. Por lo mismo, es necesaria la revisión de documentación del lenguaje a utilizar, esta elección depende de lo encontrado en la busqueda de artículos, dado que cada lenguaje tiene sus fortalezas y así aprovecharlas al máximo. \\
+
+
+Ya con la investigación y la revisión de documentación realizada, es momento de iniciar la escritura de código para realizar las diferentes simulaciones. Para tener una mejor idea de la eficacia de las probabilidades encontradas, se pueden realizar simulaciones sobre temporadas anteriores y compararlas con los resultados que se tuvieron. Ya con esto, se realizarán simulaciones sobre competiciones en curso, como la UEFA Champions League o la Copa CONMEBOL Libertadores. \\
+
+
+
+
+\section{Cronograma}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.35]{./img/diagramaGantt.png}
+	\caption{Diagrama de Gantt del Proyecto}
+	\label{gantt}
+\end{figure}
+
+
+%\begin{thebibliography}{00}
+%\bibitem{b1} Falomir, H. (2015). \textit{Curso de métodos de la física matemática.} Series: Libros de Cátedra.
+%\bibitem{b2} Saxe, K. (2002). \textit{Beginning functional analysis (p. 7)}. New York: Springer.
+%\bibitem{b3} Reed, M. (2012). \textit{Methods of modern mathematical physics: Functional analysis.} Elsevier.
+%\bibitem{b4} Axler, S. (2015). \textit{Linear algebra done right.} springer publication.
+%\bibitem{b5} Bartle, R. G., \& Sherbert, D. R. (2000). \textit{Introduction to real analysis.} John Wiley \& Sons, Inc..
+%\end{thebibliography}
+
+
+
+\end{titlepage}
+\end{document}
