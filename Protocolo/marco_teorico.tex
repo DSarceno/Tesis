@@ -4,35 +4,24 @@
 
 \section{Marco Teórico}
 
-
-\subsection{Wakefield Acceleration}
-
-\textbf{Wakefield Acceleration} es un mecanismo que utiliza ondas de plasma para acelerar partículas cargadas, como electrones, a velocidades relativistas. Este concepto es fundamental para entender cómo se pueden generar electrones de alta energía que interactúan con campos electromagnéticos en el proceso de retrodispersión de Thomson.
-
-\subsubsection*{Principio Básico:}
-\begin{description}
-    \item[Ondas de Plasma: ] Cuando un pulso de láser intenso o un haz de partículas atraviesa un plasma, genera una perturbación en la densidad de carga del plasma. Esta perturbación se propaga en forma de onda de plasma, creando camos eléctricos muy fuertes detrás del pulso, conocidos como \textbf{wakefields}.
-    \item[Aceleración de Electrones: ] Los electrones situados en la cola del puslo de láser o del haz de partículas pueden ser atrapados y acelerados por estos campos eléctricos, alcanzando energías relativistas en distancias muy cortas comparadas con los aceleradores convencionales.
-\end{description}
-
 \subsection{Dinámica Relativista}
 
-La \textbf{dinámica relativista} es esencial para describir el comportamiento de partículas cargadas que se mueven a velocidades cercanas a la de la luz. En este régimen, las leyes de la física clásica no son suficientes y es necesario aplicar la teoría de la relatividad especial de Albert Einstein para obtener una descripción precisa.
+La dinámica relativista es esencial para describir el comportamiento de partículas cargadas que se mueven a velocidades cercanas a la de la luz. En este régimen, las leyes de la física clásica no son suficientes y es necesario aplicar la teoría de la relatividad especial de Albert Einstein para obtener una descripción precisa.
 
 \subsubsection*{Conceptos Clave: }
 
 \begin{enumerate}
-    \item \textbf{Factor de Lorentz $(\gamma)$:} El factor de Lorentz es un multiplicador que mide cómo las cantidades físicas (como tiempo, longitud y masa) se dilatan o contraen en función de la velocidad de la partícula en relación con la velocidad de la luz. Se define como:
+    \item \textbf{Factor de Lorentz $(\gamma)$:} el factor de Lorentz es un multiplicador que mide cómo las cantidades físicas (como tiempo, longitud y masa) se dilatan o contraen en función de la velocidad de la partícula en relación con la velocidad de la luz. Se define como:
         \begin{equation}
             \gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}, \label{factLorentz}
         \end{equation}
-    donde $v$ es la velocidad de la partícula y $c$ es la velocidad de la luz en el vacío. Cuando $v$ se aproxima a $c$, $\gamma$ se crece, lo que indica la importancia de los efectos relativistas.
-    \item \textbf{Momento Relativista ($\vb{p}$): } A diferencia del momento clásico ($\vb{p} = m\vb{v}$), el momento relativista incluye el factor de Lorentz y se expresa como
+    donde $v$ es la magnitud de la velocidad de la partícula y $c$ es la magnitud de la velocidad de la luz en el vacío. Cuando $v$ se aproxima a $c$, $\gamma$ se crece, lo que indica la importancia de los efectos relativistas.
+    \item \textbf{Momento Relativista ($\vb{p}$): } a diferencia del momento clásico ($\vb{p} = m\vb{v}$), el momento relativista incluye el factor de Lorentz y se expresa como
         \begin{equation}
             \vb{p} = \gamma m\vb{v}. \label{momentum}
         \end{equation}
     Aquí $m$ es la masa en reposo de la partícula y $\vb{v}$ su velocidad. Este ajuste es necesario porque a velocidades altas, la masa de la partícula aumenta, lo que influye en su inercia y en como responde a las fuerzas.
-    \item \textbf{Energía Relativista ($E$): } La energía total de una partícula en el marco relativista también se modifica para incluir tanto la energía en reposo como la energía cinética. La energía total se describe por la famosa ecuación
+    \item \textbf{Energía Relativista ($E$): } la energía total de una partícula en el marco relativista también se modifica para incluir tanto la energía en reposo como la energía cinética. La energía total se describe por la famosa ecuación
         \begin{equation}
             E = \gamma mc^2 . \label{energia}
         \end{equation}
@@ -41,41 +30,44 @@ La \textbf{dinámica relativista} es esencial para describir el comportamiento d
 
 \subsubsection*{Ecuación de Movimiento Relativista: } 
 
-La ecuación de movimiento para una partícula cargada sometida a campos eléctricos y magnéticos también se modifica en el contexto relativista. Esta ecuación se formula como:
+La ecuación de movimiento para una partícula cargada sometida a campos eléctricos y magnéticos también se modifica en el contexto relativista. Esta ecuación se formula como \cite{esarey2003physics}:
 \begin{equation}
     \dv{\vb{p}}{t} = q(\vb{E} + \vb{v} \times \vb{B}),
 \end{equation}
-donde:
-\begin{itemize}
-    \item $\vb{p}$ es el momento relativista,
-    \item $q$ es la carga de la partícula,
-    \item $\vb{E}$ es el campo eléctrico,
-    \item $\vb{B}$ es el campo magnético,
-    \item $\vb{v}$ es la velocidad de la partícula.
-\end{itemize}
+donde $\vp{p}$ es el momento relativista, $q$ es la carga de la partícula, $\vb{v}$ es la velocidad de la partícula y $\vb{E}$ y $\vb{B}$ son los campos eléctrico y magnético, respectivamente.
 
 Esta ecuación establece cómo el momento de una partícula cambia con el tiempo debido a la influencia de campos electromagnéticos. Es crucial para comprender cómo una partícula cargada, como un electrón, se acelera en presencia de estos campos, especialmente en situaciones donde los efectos relativistas no pueden ser ignorados.
 
 
-\subsection{Bremsstrahlung y Retrodispersión de Thomson}
-En el martco teórico de la física de radiación electromagnética, es crucial comprender los mecanismos de emisión de radiación por partículas cargadas aceleradas. Dos de los procesos más reelevantes en este contexto son el \textit{Bremsstrahlung} y la \textit{Retrodispersión de Thomson (ICS)}
+\subsection{Bremsstrahlung y Dispersión de Thomson}
+En el marco teórico de la física de radiación electromagnética, es crucial comprender los mecanismos de emisión de radiación por partículas cargadas aceleradas. Dos de los procesos más relevantes en este contexto son el \textit{Bremsstrahlung} y la \textit{Dispersión de Thomson (ICS)}
 
 \subsubsection{Bremsstrahlung}
-Bremsstrahlung, que significa \" Radiación de Frenado\" en alemán, ocurre cuando una partícula cargada, como un electrón, es acelearada (o desacelerada) al pasar cerca de un núcleo atómico o en un campo eléctrico fuerte. Este cambio en la velocidad de la partícula genera la emisión de radiación electromagnética. \\
+Bremsstrahlung, que significa ``Radiación de Frenado'' en alemán, ocurre cuando una partícula cargada, como un electrón, es acelerada (o desacelerada) al pasar cerca de un núcleo atómico o en un campo eléctrico fuerte. Este cambio en la velocidad de la partícula genera la emisión de radiación electromagnética. \\
 
-El espectro de Bremsstrahlung es continuo y cubre un rango amplio de frecuencias, desde rayos X hasta frecuencias de radio (dependiendo de la energía del electrón). Este proceso es particularmente importante en astrofísica, en los aceleradores de partículas, y en los tubos de rayos X.
+El espectro de Bremsstrahlung es continuo y cubre un rango amplio de frecuencias, desde rayos X hasta frecuencias de radio (dependiendo de la energía del electrón). Este proceso es particularmente importante en astrofísica, en los aceleradores de partículas, y en los tubos de rayos X \cite{rybicki1991radiative, jackson2021classical}. \\
+
+Y este rango de frecuencias puede ser obtenido dado el espectro de energía radiada:
+\begin{equation}
+    \frac{\dd ^2 {I}}{\dd{\omega} \dd{\Omega}} = \frac{Z^2 e^2}{8\pi ^2 c} \qty(\frac{Q}{Mc})^2 (1 + \cos^2 \theta),
+\end{equation}
+donde $Z$ es el número atómico, $\theta$ es el ángulo de incidencia, $Q$ es el momento lineal del electrón y $M$ su masa \cite{jackson2021classical}.
 
 
 
-\subsubsection{Retrodispersión de Thomson}
-La retrodispersión de Thomson es un proceso en el cual un fotón es dispersado hacia atrás después de interactuar con una partícula cargada, generalmente un electrón. En el régimen no relativista, este fenómeno se puede entender utilizando la teoría clásica de la dispersión de Thomson, donde la energía del fotón incidente es mucho menor que la energía en reposo del electrón. Bajo estas condiciones, la frecuencia del fotón dispersado permanece esencialmente igual a la del fotón incidente, y la radiación resultante se dispersa de manera simétrica en todas las direcciones, con una ligera preferencia hacia la dirección opuesta a la de la partícula.
+\subsubsection{Dispersión de Thomson}
+La Dispersión de Thomson es un proceso en el cual un fotón es dispersado después de interactuar con una partícula cargada, generalmente un electrón. En el régimen no relativista, este fenómeno se puede entender utilizando la teoría clásica de la dispersión de Thomson, donde la energía del fotón incidente es mucho menor que la energía en reposo del electrón. Bajo estas condiciones, la frecuencia del fotón dispersado permanece esencialmente igual a la del fotón incidente, y la radiación resultante se dispersa de manera simétrica en todas las direcciones, con una ligera preferencia hacia la dirección opuesta a la de la partícula \cite{corde2013femtosecond}. \\
 
-Sin embargo, cuando se considera el régimen relativista, donde los electrones se mueven a velocidades cercanas a la de la luz, la situación cambia drásticamente. Aquí, debido al efecto Doppler relativista, la energía del fotón dispersado puede aumentar significativamente, desplazando su frecuencia hacia el espectro de los rayos X o incluso hacia frecuencias más altas, dependiendo de la energía del electrón. Este proceso, a menudo denominado \textit{Inverse Compton Scattering (ICS)} cuando se realiza en el marco relativista, es crucial en aplicaciones como los aceleradores de partículas y en la astrofísica de altas energías, donde permite generar haces de rayos X intensos o interpretar la radiación emitida por fuentes astrofísicas.
+Sin embargo, cuando se considera el régimen relativista, donde los electrones se mueven a velocidades cercanas a la de la luz, la situación cambia drásticamente. Aquí, debido al efecto Doppler relativista, la energía del fotón dispersado puede aumentar significativamente, desplazando su frecuencia hacia el espectro de los rayos X o incluso hacia frecuencias más altas, dependiendo de la energía del electrón. Este proceso, a menudo denominado \textit{Inverse Compton Scattering (ICS)} cuando se realiza en el marco relativista, es crucial en aplicaciones como los aceleradores de partículas y en la astrofísica de altas energías, donde permite generar haces de rayos X intensos o interpretar la radiación emitida por fuentes astrofísicas. \\
 
-
+El espectro de energías generado por este proceso está dado por:
+\begin{equation}
+    E = \frac{2\gamma ^2 (1 - \cos{\alpha})}{1 + \gamma ^2 \theta ^2 + \frac{a_o ^2}{2} + \gamma \frac{\lambda _c}{\lambda _o}} E_o, \label{ICS}
+\end{equation}
+en donde $a_o$ es el parámetro de intensidad de campo electromagnético, $\alpha$, $\lambda _o$ y $E_o$ son los parámetros referentes a la onda electromagnética incidente, $\gamma$ es el factor de Lorentz para el electrón, $\theta$ es el ángulo de la onda dispersada y $\lambda _c$ la longitud de onda de Compton \cite{albert2023principles}.
 
 \subsection{Potencial de Liénard-Wiechert}
-El \textbf{Potencial de Liénard-Wiechert} describe los campos electromagnéticos generados por una partícula cargada que se mueve con una velocidad arbitraria. Este potencial es esencial para el análisis de la radiación emitida por cargas en movimiento y se deriva a partir de las ecuaciones de Maxwell en electrodinámica.
+El Potencial de Liénard-Wiechert describe los campos electromagnéticos generados por una partícula cargada que se mueve con una velocidad arbitraria. Este potencial es esencial para el análisis de la radiación emitida por cargas en movimiento y se deriva a partir de las ecuaciones de Maxwell en electrodinámica.
 
 \subsubsection{Ecuaciones de Maxwell}
 El punto de partida es la ecuacion de onda para el potencial $vb{A}$ y el potencial escalar $\phi$, que derivan de las ecuaciones de Maxwell bajo la condición de calibración de Lorenz \cite{griffiths2021introduction}:
@@ -84,8 +76,17 @@ El punto de partida es la ecuacion de onda para el potencial $vb{A}$ y el potenc
     \square ^2 \vb{A} &= -\mu _o \vb{J} \label{vectorPotential} \\
     \square ^2 \phi &= -\frac{\rho}{\varepsilon _o}. \label{scalarPotential}
 \end{align}
-donde $\square$ es el operador d'Alembertiano\footnote{Operador d'Alembertiano, también conocido como operador de onda, es un operador diferencial que aparece en las ecuaciones que describen la propagación de ondas y en la relatividad especial. Matemáticamente se define como $\square ^2 \equiv \laplacian - \mu _o \varepsilon _o \pdv[2]{t}$.}, $\vb{J}$ es la densidad de corriente y $\rho$ es la densidad de carga.
+donde $\square$ es el operador d'Alembertiano, $\vb{J}$ es la densidad de corriente y $\rho$ es la densidad de carga. El operador d'Alembertiano, también conocido como operador de onda, es un operador diferencial que aparece en las ecuaciones que describen la propagación de ondas y en la relatividad especial. Matemáticamente se define como $\square ^2 \equiv \laplacian - \mu _o \varepsilon _o \pdv[2]{t}$.
 
+
+\subsection{Wakefield Acceleration}
+
+\emph{Wakefield Acceleration} es un mecanismo que utiliza ondas de plasma para acelerar partículas cargadas, como electrones, a velocidades relativistas. Este concepto es fundamental para entender cómo se pueden generar electrones de alta energía que interactúan con campos electromagnéticos en el proceso de Dispersión de Thomson \cite{albert2023principles}. El mecanismo de \emph{Wakefield Acceleration} permite alcanzar gradientes de aceleración, es decir, campos eléctricos que son tres órdenes de magnitud más intensos que los logrados con las tecnologías convencionales. Este avance representa un progreso significativo en la capacidad de acelerar partículas en distancias mucho más cortas \cite{chen1984introduction}.
+
+\begin{description}
+    \item[Generación de Estructura de Aceleración: ] Cuando un pulso de láser intenso o un haz de partículas atraviesa un plasma, genera una perturbación en la densidad de carga del plasma. Esta perturbación crea campos eléctricos muy fuertes detrás del pulso, conocidos como \emph{wakefields}.
+    \item[Aceleración de Electrones: ] Los electrones en la cola de la estructura de aceleración pueden ser atrapados y acelerados por estos campos eléctricos, alcanzando energías relativistas en distancias muy cortas comparadas con los aceleradores convencionales.
+\end{description}
 
 
 
