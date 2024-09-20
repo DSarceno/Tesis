@@ -1,0 +1,21 @@
+
+First time you start a project: 					    #Do these only the first time you start a new project
+
+Diego_G4 -> build (empty)      					 	    #Go to the build folder inside your project.
+
+sudo rm -r * (delete CMakeFiles Directory)    				    #Need to delete all CMakeFiles
+
+cmake -DGeant4_Dir=/usr/local/geant4/geant4.10.05-install/lib/Geant4...     #Need to use cmake telling where in your computer you have GEANT4. Would need to change depending on version 
+									    #and location of the program. 
+
+
+#Do this after every change you do in the source code. 
+To compile:
+sudo make ConverterSim (in build directory, builds target and executable) 
+
+To use visualization tool:
+./ConverterSim 
+
+To run simulation using macro:
+./ConverterSim -m ../MacroRunFiles/Mono       #Mono here is the file, change to any other macro in MacroRunFiles folder. 
+

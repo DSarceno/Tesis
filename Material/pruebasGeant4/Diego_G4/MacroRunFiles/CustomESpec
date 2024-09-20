@@ -1,0 +1,47 @@
+# Macro file for example
+# 
+# To be run preferably in batch, without graphics:
+# % exampleB4[a,b,c,d] run2.mac
+#
+#/run/numberOfWorkers 4
+
+
+# Initializes the run and sets verbosity settings
+/run/initialize
+
+
+# Sets Particle type
+/gps/particle e-
+
+
+# Sets the beam type
+# could also be Beam, Point, etc.
+/gps/pos/type Beam
+
+
+# The position of the beam and its rotation.
+/gps/pos/centre 0. 0. -50. cm
+/gps/pos/rot1 1 0 0 
+/gps/pos/rot2 0 1 0
+
+# We have the beam go in the +Z direction
+/gps/direction 0 0 1
+
+# Set the size of the beam, since we don't want a pencil beam
+#/gps/pos/sigma_r 1 mm
+
+# recall that the people who wrote this make things backwards. I.e, to get a particle traveling in the positive z direction you need theta = 180. So, we have to rotate the axis. These need not be unit vectors
+
+#/gps/ang/rot1 1 0 0
+#/gps/ang/rot2 0 -1 0
+
+# OutputFile name
+/analysis/setFileName ../Output/CustMeV_356_800umTa_50MeV2_1e6.root          # Set name for the output file
+
+/gps/ene/type Arb
+/gps/hist/file ../MacroRunFiles/Shot356_dNdE_50MeV.dat
+/gps/hist/inter Lin
+
+/run/beamOn 1000000
+
+

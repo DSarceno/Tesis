@@ -1,0 +1,11 @@
+#!/bin/bash
+
+./build/ConverterSim -m MacroRunFiles/Mono
+
+echo What is the shot name?
+read name
+
+cp -f ParticleInfo.root Output/ParticleInfo_"$name".root
+
+python StackSimulationPlots.py
+
