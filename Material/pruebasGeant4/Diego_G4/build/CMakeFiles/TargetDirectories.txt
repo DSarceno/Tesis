@@ -1,0 +1,7 @@
+/home/diego/Documents/Trabajos/Tesis/Material/pruebasGeant4/Diego_G4/build/CMakeFiles/install/strip.dir
+/home/diego/Documents/Trabajos/Tesis/Material/pruebasGeant4/Diego_G4/build/CMakeFiles/install/local.dir
+/home/diego/Documents/Trabajos/Tesis/Material/pruebasGeant4/Diego_G4/build/CMakeFiles/install.dir
+/home/diego/Documents/Trabajos/Tesis/Material/pruebasGeant4/Diego_G4/build/CMakeFiles/list_install_components.dir
+/home/diego/Documents/Trabajos/Tesis/Material/pruebasGeant4/Diego_G4/build/CMakeFiles/rebuild_cache.dir
+/home/diego/Documents/Trabajos/Tesis/Material/pruebasGeant4/Diego_G4/build/CMakeFiles/edit_cache.dir
+/home/diego/Documents/Trabajos/Tesis/Material/pruebasGeant4/Diego_G4/build/CMakeFiles/ConverterSim.dir
